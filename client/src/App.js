@@ -24,7 +24,18 @@ class App extends Component {
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
-                    <h1 className="App-title">Welcome to React</h1>
+                    <div> 
+                        <h1 className="App-title">Venture Garden Group</h1>
+                        <p></p> 
+                        <p></p> 
+                        <h3>Transforming Africa through technology</h3>
+                        <p>Venture Garden Group (VGG) is a leading provider of innovative, data-driven, end-to-end technology
+                                platforms addressing reconciliation and payment processing inefficiencies across multiple
+                                sectors of the African economy. Our
+                                <strong> mission</strong> is to transform Africa by using innovative technologies to solve real socio-economic
+                                challenges in impact sectors critical to sustainable economic development.</p>
+                        <p><strong>AYODEJI TORIOLA</strong></p>
+                    </div>
                 </header>
                 <p className="App-intro">{this.state.apiResponse}</p>
             </div>
